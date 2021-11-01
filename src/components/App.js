@@ -40,7 +40,7 @@ class App extends Component {
       direction: 'alternate',
       loop: true,
       easing: 'easeInQuad',
-      duration: 1600,
+      duration: 2000,
       scale: function(el, i, l) {
         return (l - i) + .08;
       },
@@ -85,9 +85,9 @@ class App extends Component {
             titleMargin: '15px'
           });
           this.animate(this.refs.gameOver);
-        }, 850)
+        }, 1500)
       }
-    }, 700);
+    }, 1000);
   }
 
   clearMoles(){
